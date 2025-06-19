@@ -1,10 +1,10 @@
-﻿# 🛡️ SecureScout - 全功能Web安全检测平台
+﻿# 🛡️ SecureScout - Full-featured Web Security Scanning Platform
 
-![系统运行截图](SecureScout/frontend/imgs/image.png)
+![System Running Screenshot](SecureScout/frontend/imgs/image.png)
 
 <div align="center">
 
-![SecureScout Logo](https://img.shields.io/badge/SecureScout-Web安全检测平台-blue?style=for-the-badge)
+![SecureScout Logo](https://img.shields.io/badge/SecureScout-Web%20Security%20Scanning%20Platform-blue?style=for-the-badge)
 
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com/)
 [![Vue.js](https://img.shields.io/badge/Frontend-Vue.js-4FC08D?style=flat-square&logo=vue.js)](https://vuejs.org/)
@@ -14,61 +14,61 @@
 
 </div>
 
-SecureScout是一款功能强大的Web安全检测工具，提供美观的浅色主题前端界面和强大的后端扫描功能。它可以帮助你检测网站中的常见安全漏洞，包括SQL注入、XSS跨站脚本、CSRF跨站请求伪造和文件上传漏洞等。
+SecureScout is a powerful web security scanning tool that provides a beautiful light-themed frontend interface and robust backend scanning capabilities. It helps you detect common website security vulnerabilities, including SQL injection, XSS cross-site scripting, CSRF cross-site request forgery, file upload vulnerabilities, and more.
 
-> 🔍 **安全扫描 · 漏洞分析 · 安全评分 · 修复建议**
+> 🔍 **Security Scanning · Vulnerability Analysis · Security Scoring · Remediation Suggestions**
 
-## ✨ 功能特点
+## ✨ Features
 
-| 🌟 特性 | 📝 描述 |
-|---------|--------|
-| 🎨 **美观的用户界面** | 现代化浅色主题设计，数据可视化仪表盘，直观易用 |
-| 🚀 **强大的扫描引擎** | 支持SQL注入、XSS、CSRF、文件上传等多种常见Web安全漏洞检测 |
-| ⚡ **异步任务处理** | 支持并行处理多个扫描任务，高效完成扫描工作 |
-| 📊 **详细的报告** | 提供可视化扫描结果和安全建议，包括漏洞分布、安全评分等 |
-| ⚙️ **自定义配置** | 允许用户自定义扫描参数和规则，灵活应对不同场景 |
-| 📱 **响应式设计** | 完美支持桌面端和移动端，随时随地进行安全检测 |
+| 🌟 Feature | 📝 Description |
+|-----------|---------------|
+| 🎨 **Beautiful User Interface** | Modern light theme design, data visualization dashboard, intuitive and easy to use |
+| 🚀 **Powerful Scanning Engine** | Supports detection of common web vulnerabilities such as SQL injection, XSS, CSRF, file upload, etc. |
+| ⚡ **Asynchronous Task Processing** | Supports parallel processing of multiple scan tasks for efficient scanning |
+| 📊 **Detailed Reports** | Provides visual scan results and security suggestions, including vulnerability distribution, security scores, etc. |
+| ⚙️ **Custom Configuration** | Allows users to customize scan parameters and rules for flexible adaptation to different scenarios |
+| 📱 **Responsive Design** | Perfectly supports desktop and mobile, enabling security scanning anytime, anywhere |
 
 
-## 🔧 技术栈
+## 🔧 Tech Stack
 
-### 🖥️ 后端
-- **FastAPI**: 快速高效的API框架
-- **aiohttp**: 异步HTTP客户端/服务器
-- **BeautifulSoup4**: HTML解析库
-- **Uvicorn**: ASGI服务器
+### 🖥️ Backend
+- **FastAPI**: Fast and efficient API framework
+- **aiohttp**: Asynchronous HTTP client/server
+- **BeautifulSoup4**: HTML parsing library
+- **Uvicorn**: ASGI server
 
-### 🎨 前端
-- **Vue 3**: 渐进式JavaScript框架
-- **Vite**: 现代前端构建工具
-- **Element Plus**: UI组件库
-- **Tailwind CSS**: 实用优先的CSS框架
-- **Chart.js**: 数据可视化库
+### 🎨 Frontend
+- **Vue 3**: Progressive JavaScript framework
+- **Vite**: Modern frontend build tool
+- **Element Plus**: UI component library
+- **Tailwind CSS**: Utility-first CSS framework
+- **Chart.js**: Data visualization library
 
-## 🚀 快速开始
+## 🚀 Quick Start
 
-### 📋 环境要求
+### 📋 Requirements
 
 - Python 3.8+
 - Node.js 16+
 - npm 8+
 
-### 📥 安装步骤
+### 📥 Installation Steps
 
-1. **进入项目仓库**
+1. **Enter the project directory**
 
 ```bash
 cd SecureScout
 ```
 
-2. **安装后端依赖**
+2. **Install backend dependencies**
 
 ```bash
 cd backend
 pip install -r requirements.txt
 ```
 
-3. **安装前端依赖**
+3. **Install frontend dependencies**
 
 ```bash
 cd frontend
@@ -76,75 +76,75 @@ npm install
 npm run dev
 ```
 
-### ▶️ 运行应用
+### ▶️ Run the Application
 
-#### 🪟 Windows用户 - 一键启动
+#### 🪟 Windows Users - One-click Start
 
-只需要双击项目根目录中的 `start.bat` 文件，即可同时启动前端和后端服务！启动脚本会自动:
+Simply double-click the `start.bat` file in the project root directory to start both the frontend and backend services! The startup script will automatically:
 
-- ✅ 检查环境依赖是否满足
-- ✅ 启动后端API服务
-- ✅ 启动前端开发服务器
-- ✅ 在浏览器中打开应用
+- ✅ Check if environment dependencies are met
+- ✅ Start the backend API service
+- ✅ Start the frontend development server
+- ✅ Open the application in your browser
 
-#### 🖱️ 手动启动
+#### 🖱️ Manual Start
 
-1. **启动后端服务**
+1. **Start the backend service**
 
 ```bash
 cd backend
 python run.py
 ```
 
-2. **启动前端服务**
+2. **Start the frontend service**
 
 ```bash
 cd frontend
 npm run dev
 ```
 
-3. **在浏览器中访问前端页面**
+3. **Access the frontend page in your browser**
 
 ```
 http://localhost:3000
 ```
 
-## 📚 使用指南
+## 📚 User Guide
 
-### 🏠 仪表盘
+### 🏠 Dashboard
 
-仪表盘提供了系统的整体安全状况概览：
+The dashboard provides an overview of the system's overall security status:
 
-- 安全评分和趋势分析
-- 已发现漏洞的数量和分布情况
-- 最近扫描的记录和结果
-- 安全建议和快速操作入口
+- Security score and trend analysis
+- Number and distribution of discovered vulnerabilities
+- Recent scan records and results
+- Security suggestions and quick action shortcuts
 
-### 🔍 扫描中心
+### 🔍 Scan Center
 
-扫描中心是进行安全检测的核心功能区：
+The scan center is the core area for security testing:
 
-1. 输入目标网站URL
-2. 选择扫描模式（快速/标准/深度）
-3. 配置扫描参数（并发度、超时设置等）
-4. 启动扫描并实时查看进度
-5. 扫描完成后查看结果概要
+1. Enter the target website URL
+2. Select scan mode (Quick/Standard/Deep)
+3. Configure scan parameters (concurrency, timeout settings, etc.)
+4. Start the scan and view progress in real time
+5. View summary of results after scan completion
 
-### 📊 报告中心
+### 📊 Report Center
 
-报告中心提供详细的漏洞分析和安全评估：
+The report center provides detailed vulnerability analysis and security assessment:
 
-- 漏洞类型分布和风险等级
-- 详细的漏洞描述和复现步骤
-- 修复建议和参考资料
-- 报告导出功能（PDF/HTML）
+- Vulnerability type distribution and risk levels
+- Detailed vulnerability descriptions and reproduction steps
+- Remediation suggestions and reference materials
+- Report export function (PDF/HTML)
 
-### ⚙️ 设置中心
+### ⚙️ Settings Center
 
-设置中心允许自定义系统配置：
+The settings center allows customization of system configurations:
 
-- 扫描规则和参数调整
-- 漏洞库更新
-- 通知设置
-- 系统偏好设置
+- Scan rule and parameter adjustments
+- Vulnerability database updates
+- Notification settings
+- System preferences
 

@@ -1,7 +1,5 @@
 ﻿# 🛡️ SecureScout - Full-featured Web Security Scanning Platform
 
-![System Running Screenshot](SecureScout/frontend/imgs/image.png)
-
 <div align="center">
 
 ![SecureScout Logo](https://img.shields.io/badge/SecureScout-Web%20Security%20Scanning%20Platform-blue?style=for-the-badge)
